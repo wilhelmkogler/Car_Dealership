@@ -1,0 +1,348 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgba(6,16,101,255);
+}
+
+
+
+/* Container */
+.container_profil{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8vh 0;
+    
+    
+}
+
+
+/* Left */
+.container_profil .left table {
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    
+}
+
+.container_profil .left table th,
+.container_profil .left table td {
+    padding: 10px;
+    font-size: 1.5rem;
+    
+    
+    
+}
+.container_profil .title{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.container_profil .title h2{
+    font-size: 2rem;
+    
+    color: whitesmoke;
+}
+.container_profil .logout{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container_profil .logout input{
+    background-color: red;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+    
+}
+.container_profil .logout input:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+/* Right */
+.container_profil .right{
+    max-width: 50%;
+}
+
+.container_profil .right .telitabla{ 
+    
+    background-color: white;
+    width: 250px; 
+    height: 200px; 
+    margin: 10px; 
+    table-layout: fixed; 
+    border-collapse: collapse;
+    box-shadow: 9px 12px 14px 3px rgba(0, 0, 0, 0.3);
+}
+.container_profil .right .telitabla th{
+    font-size: 1.1rem;
+    max-width: 150px; 
+    word-wrap: break-word;
+
+}
+.container_profil .right .telitabla td{
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 5px;
+    
+    
+}
+.container_profil .right .telitabla img{
+    width: 100%; 
+    height: 25%; 
+    object-fit: cover; 
+}
+
+.container_profil .right .urestabla{
+    width: 500px;
+    height: 250px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+.container_profil .right .urestabla td{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.container_profil .right .cars { 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    min-width: 500px; 
+    justify-content: center; 
+}
+
+.container_profil .right #trash{
+    font-size: 1.5rem;
+    border: none;
+    background: transparent;
+    color: black;
+}
+.container_profil .right #trash:hover{
+    cursor: pointer;
+    color: red;
+}
+.container_profil .clear{
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+.container_profil button{
+    background-color: red;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+.container_profil button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+/*SCROLLTOP*/
+.scroll-top-wrapper {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+}
+.scroll-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(3 24 213 / 75%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.scroll-top:hover {
+    background-color: rgb(3 24 213 / 100%);
+}
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media (max-width: 992px){
+   
+    
+    /*Container*/
+    .container_profil{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    /*Left*/
+    .container_profil .left .userdetails{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container_profil .left table { 
+        width: 80%;
+        padding: 10px;
+        
+    }
+    .container_profil .left table th{
+        font-size: 1.5rem;
+
+    }
+    .container_profil .left table td{
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 10px 10px 20px 10px;
+    }
+
+    /*Right*/
+    .container_profil .right{
+        max-width: 100%;
+    }
+    .container_profil .right .telitabla img{
+        width: 100%; 
+        height: 25%; 
+        object-fit: cover; /
+    }
+    .container_profil .right .urestabla{
+        width: 80%;
+        
+    }
+    .container_profil .right .urestabla td{
+        
+        font-size: 1.4rem;
+        
+    }
+
+
+}
+@media (max-width: 576px){
+    
+    
+    /*Container*/
+    .container_profil{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*left*/
+
+    .container_profil .left .userdetails{
+        text-align: center;
+        width: 100%;
+    }
+    .container_profil .left table tr {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .container_profil .left table th,
+    .container_profil .left table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    /*right*/
+    .container_profil .right{
+        max-width: 100%;
+    }
+    
+    .container_profil .right .telitabla{ 
+        padding: 0 10px;
+        
+        width: 150px;
+        height: 50px; 
+        margin: 5px; 
+        table-layout: fixed; 
+        border-collapse: collapse;
+        box-shadow: 9px 12px 14px 3px rgba(0, 0, 0, 0.3);
+    }
+    .container_profil .right .telitabla th{
+        font-size: 0.8rem;
+        max-width: 150px; 
+        word-wrap: break-word;
+
+    }
+    .container_profil .right .telitabla td{
+        text-align: center;
+        font-size: 0.7rem;
+        padding: 5px;
+        
+        
+    }
+    .container_profil .right .telitabla img{
+        width: 100%; 
+        height: 25%;
+        object-fit: cover; /
+    }
+
+    
+
+    .container_profil .right .urestabla td{
+        
+        font-size: 1.4rem;
+        
+    }
+
+    .container_profil .right .cars {
+        
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        
+        padding: 10px;
+        min-height: 100px; 
+        min-width: 100px; 
+        justify-content: center; 
+    }
+
+    .container_profil .right #trash{
+        font-size: 1.2rem;
+        border: none;
+        background: transparent;
+        color: black;
+    }
+    .container_profil .right #trash:hover{
+        cursor: pointer;
+        color: red;
+    }
+    
+
+
+
+
+    
+
+}

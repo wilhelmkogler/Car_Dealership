@@ -1,0 +1,791 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(3 24 213 / 75%);
+
+}
+
+
+/*Section first*/
+.section_first{
+    
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_first h1 {
+    color: transparent;
+    font-size: 15vw;
+    -webkit-text-stroke: 3px white;
+    
+}
+
+
+/*Section 2*/
+
+.section_second .row{
+    margin: 40px;
+}
+
+.section_second .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    
+}
+
+.section_second .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.section_second .card img{
+    height: auto;
+    
+}
+
+
+.section_second .container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 200px;
+}
+
+.section_second h2 {
+    
+    font-size: 2rem;
+    color: black;
+    
+    padding: 10px 10px;
+}
+.section_second p {
+    text-align: justify;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.section_second .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.section_second button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section_second button:hover{
+    background-color: red;
+    
+}
+
+/*SECTION 3*/
+.section_third{
+    background-image: url(../img/autoink/wall.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.section_third .container{
+    width: 100%;
+    display: flex;
+    
+}
+.section_third .column-1{
+    width: 30%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(3px);
+    
+}
+.section_third .column-1 h1{
+    color: transparent;
+    font-size: 5vw;
+    -webkit-text-stroke: 3px white;
+}
+.section_third .column-2 {       
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 20px;
+}
+.section_third .column-2 h2{
+    color: white;
+    font-size: 2rem;
+}
+.section_third .column-2 p{
+    color: white;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.section_third .column-2 button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+   
+}
+.section_third .column-2 button:hover{
+    background-color: transparent;
+    cursor: pointer;
+              
+}
+
+
+/*SECTION ABOUT*/
+#kinalat{
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 20px;
+    color: white;
+    
+}
+.section_about {
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.section_about .container {
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 7px 11px 6px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 7px 11px 6px 0 rgb(0 0 0 / 50%);
+}
+
+.section_about .container h2 {
+    padding-bottom: 10px;
+    font-size: 2rem;
+    text-decoration: underline;
+    
+}
+.section_about .container ul{
+    list-style-type: none;
+}
+.section_about .container #hd{
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+}
+.section_about .container li{
+    list-style-type: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    
+}
+
+
+/*Section Question*/
+.section_question .faq{
+    margin: 0;
+    background-image: url(../img/autoink/wall.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.section_question .kep{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: white;
+    padding: 40px;
+}
+.section_question .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section_question .message{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.section_question .message form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section_question .message form h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+.section_question form input {
+    width: 500px;
+    height: 40px;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.section_question form textarea {
+    width: 500px;
+    height: 100px;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}   
+
+.section_question form button {
+    background: transparent;
+    color: white;
+    font-weight: bold;     
+    
+    border: 2px solid white;
+    width: max-content;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.section_question form button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+.section_question .szoveg {
+    width: 50%;
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_question .szoveg h2{
+    font-size: 2rem;
+    color: white;
+}
+.section_question .szoveg p{
+    font-size: 1.4rem;
+    margin: 0 7vw;
+    color: white;
+    text-align: justify;
+}
+.section_question .szoveg button{
+    background: transparent;
+    color: white;
+    font-weight: bold;     
+    
+    border: 2px solid white;
+    width: max-content;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    
+
+}
+.section_question .szoveg button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/*SECTION CALCULATOR*/
+.section_calculator{ 
+    background-color: white;
+    padding: 50px;
+    margin: 40px 150px 40px 150px;
+    border-radius: 40px;
+    box-shadow: 7px 11px 6px 0 rgb(0 0 0 / 50%);
+    
+}
+.section_calculator h2{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.section_calculator .calc_table .container-box{
+    margin-top: 30px;
+}
+.section_calculator .calc_table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.section_calculator .calc_table td{
+    padding: 5px;
+    text-align: center;
+    width: 25%;  
+    
+}
+.section_calculator .calc_table_footer{
+    display: block;
+    text-align: center;
+}
+.section_calculator .calc_table_footer p{
+    margin: 5px;
+    font-size: 2rem;
+    display: inline-block;
+}
+.section_calculator .calc_table label{
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.section_calculator .calc_table input[type=number]{
+    width: 13rem;
+    text-align: center;
+    font-size: 1.3rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.section_calculator .calc_table input[type=range]{
+    width: 10rem;
+    margin-top: 25px;
+}
+.section_calculator .calc_table input[type=radio]{
+    width: 0.8rem;
+    margin: 0 0 0 10px;
+    
+}
+.section_calculator .calc_table_footer{
+    margin-top: 50px;
+}
+.section_calculator .calc_table_footer button {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(3 24 213 / 75%);
+}
+.section_calculator .calc_table_footer button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.section_calculator .calc_table input[type=number]:focus{
+    outline: none;
+    border-bottom: 4px solid black;
+}
+.section_calculator .calc_table input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SCROLLTOP*/
+.scroll-top-wrapper {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+}
+.scroll-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(3 24 213 / 75%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.scroll-top:hover {
+    background-color: rgb(3 24 213 / 100%);
+}
+
+
+
+
+/*RESPONSIVE*/
+@media (max-width: 1200px){
+    /*Section two*/
+    .section_second .container {
+        min-height: 220px;
+    }
+    /*Section third*/
+    .section_third .column-2{
+        padding: 20px;
+    }
+    
+
+
+}
+@media (max-width: 992px){
+
+    /*Section two*/
+    .section_second .container {
+        min-height: 280px;
+    }
+    /*Section three*/
+    .section_third{
+        background-position: right;
+        background-attachment: unset;
+
+    }
+    .section_third .column-1 {
+        flex-direction: column;
+        padding: 5px 0;
+    }
+    
+      
+    
+    /*Section about*/
+    #kinalat{
+        font-size: 6vw;
+        margin-top: 20px;
+        -webkit-text-stroke: 0;
+    }
+    .section_about .container {
+        width: 45%;
+        
+        
+    }
+   
+    
+
+    /*Section question*/
+    .section_question .faq{
+        background-position: right;
+        background-attachment: unset;
+
+    }
+    .section_question .szoveg p {
+        font-size: 1rem;
+        margin: 0;
+        
+    }
+    .section_question form input {
+        width: 300px;
+        height: 30px;
+        
+    }
+    .section_question form textarea {
+        width: 300px;
+        height: 100px;
+        
+    }
+   
+
+
+    /*Section Calculator*/
+    
+    .section_calculator .calc_table{
+        display: block;
+        width: 100%;
+    }
+    .section_calculator .calc_table tbody{
+        display: block;
+        width: 100%;
+    }
+    .section_calculator .calc_table tr {
+        margin-bottom: 12px;
+        display: block;
+        width: 100%;
+    }
+    .section_calculator .calc_table td{
+        display: block;
+        width: 100%;
+    }
+    .section_calculator h2{
+        font-size: 2rem;
+    }
+    .section_calculator .calc_table label{
+        font-size: 1.4rem;
+    }
+    .section_calculator .calc_table_footer p{
+        font-size: 1.4rem;
+    }
+    .section_calculator .calc_table input[type=number]{
+        width: 11rem;
+        font-size: 1.2rem;
+    }
+    .section_calculator .calc_table input[type=range]{
+        width: 11rem;
+    }
+    .section_calculator .calc_table input[type=radio]{
+        width: 0.8rem;
+        margin: 0; 
+    }
+
+    
+
+
+}
+@media (max-width: 576px){
+
+    /*Section first*/
+    .transparent_image #horizontal{
+        display: none;
+    }
+    .transparent_image #vertical{
+        display: block;
+    }
+    
+    /*Section first*/
+    .section_first{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section_first h1 {
+        
+        font-size: 18vw;
+        
+        
+    }
+    /*Section second*/
+    .section_second .column {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .section_second .card{
+        margin: 0 20px 20px 20px;
+    }
+    .section_second h2 {
+        font-size: 1.5rem;
+        padding: 10px 0;
+    }
+    .section_second p {
+        font-size: 0.8rem;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+    .section_second .container {
+        min-height: fit-content;
+        padding: 0 10px 10px 10px;
+    }
+    .section_second .container button{
+        width: 100%;
+        position: static;
+        transform: none;
+    }
+    .section_second .row{
+        margin: 30px 20px;
+    }
+
+    
+    
+    /*Section third*/
+    .section_third .column-1 {
+        display: none;
+    }
+    
+    
+
+    .section_third .column-2{
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+    .section_third .column-2 h2{
+        font-size: 1.1rem;
+        
+    }
+    .section_third .column-2 p{
+        font-size: 0.8rem;
+        
+        
+    }
+    .section_third .column-2 button{
+        font-size: 0.6rem;
+        padding: 10px;
+        
+        
+    }
+
+    /*Section about*/
+    #kinalat{
+        font-size: 2rem;
+        
+    }
+    .section_about {
+        gap: 0px;
+        
+    }
+    .section_about .container {
+        width: 100%;
+        margin: 10px 0;
+        
+    }
+    .section_about .container li{
+        font-size: 0.7rem;
+        
+    }
+    .section_about .container h2{
+        font-size: 1.5rem;
+        padding-bottom: 5px;
+    }
+    .section_about .container #hd{
+        font-size: 0.75rem;
+    }
+
+    
+    
+
+
+
+    /*Section question*/
+    .section_question .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section_question .faq .kep{
+        border-bottom: 3px solid white;
+    }
+    .section_question .kep h2{
+        font-size: 2rem;
+    }
+    .section_question .szoveg{
+        width: 100%;
+        gap: 30px;
+    }
+    .section_question .szoveg h2{
+        font-size: 1.5rem;
+    }
+    .section_question .szoveg p{
+        font-size: 0.9rem;
+        margin: 0 10vw;
+    }
+
+
+    .section_question .container .message{
+        width: 100%;
+    }
+    .section_question .message form h2{
+        font-size: 1.5rem;
+    }
+
+
+
+    /*Section Calculator*/
+    .section_calculator{
+        padding: 20px 0 30px 0;
+        margin: 40px;
+    }
+    .section_calculator h2{
+        font-size: 1.5rem;
+    }
+    .section_calculator .calc_table{
+        display: block;
+        width: 100%;
+    }
+    .section_calculator .calc_table tbody{
+        display: block;
+        width: 100%;
+    }
+    .section_calculator .calc_table tr {
+        margin-bottom: 12px;
+        display: block;
+        width: 100%;
+    }
+    .section_calculator .calc_table td{
+        display: block;
+        width: 100%;
+    }
+    .section_calculator .calc_table label{
+        font-size: 1.3rem;
+    }
+    .section_calculator .calc_table_footer p{
+        font-size: 1.3rem;
+    }
+    .section_calculator .calc_table input[type=number]{
+        width: 11rem;
+        font-size: 1.1rem;
+    }
+    .section_calculator .calc_table input[type=range]{
+        width: 11rem;
+    }
+    .section_calculator .calc_table input[type=radio]{
+        width: 0.8rem;
+        margin: 0;
+    }
+    .section_calculator .calc_table_footer button{
+        width: 120px;
+        height: 40px;
+        font-size: 1.3rem;
+    }
+
+    
+
+}

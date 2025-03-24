@@ -1,0 +1,437 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgba(6,16,101,255);
+    
+}
+
+     
+/*HEADER*/
+.section_header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.section_header h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 3rem;
+             
+}
+
+
+
+
+
+
+
+/*CARS*/
+.section_cars{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+.section_cars .cards {
+    width: 90%;
+    margin: auto;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+.section_cars .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.section_cars .card .card_details{
+    
+    bottom: 0;
+    
+    background-color: rgb(0, 0, 0, 30%);
+    color: #f1f1f1;
+    width: 100%;
+    
+    display: grid;
+}
+.section_cars .card .card_details tbody{
+    text-align: center;
+}
+.section_cars .card .card_details th{
+    text-align: center;
+    font-size: 1.9rem;
+    padding-bottom: 5px;
+    
+}
+.section_cars .card .card_details td[rowspan="2"] {
+    text-align: right;
+    font-size: 1.5rem;
+    color: rgb(1, 247, 34);
+}
+.section_cars td{
+    padding: 3px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+
+
+/*SECTION STEPS*/
+.section_steps{
+    border: none;
+}
+.section_steps .text{
+    background-color: rgb(0, 0, 0, 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 150px;
+    padding: 50px 150px;
+    color: white;
+    border-radius: 150px 0 150px 0;
+    
+}
+.section_steps h1{
+    font-size: 3rem;
+    padding-bottom: 40px;
+}
+
+.section_steps li{
+    margin-left: 40px;
+    padding: 2px;
+    font-size: 1.3rem;
+    list-style-type: disc;
+}
+.section_steps .text a{
+    text-decoration: none;
+    color: lime;
+    font-size: 1.3rem;
+}
+.section_steps .text a:link{
+    text-decoration: none;
+    
+}
+.section_steps .text a:visited{
+    text-decoration: none;
+    
+}
+.section_steps .text a:hover{
+    text-decoration: underline;
+}
+
+
+/*SECTIUON END*/
+.section_end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    background-color: rgb(0, 0, 0, 10%);
+    
+}
+.section_end .text{   
+    border: 2px solid white;          
+    padding: 40px 30px;
+    text-align: center;
+}
+.section_end h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+
+}
+.section_end h2{
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+}
+.section_end a{
+   background-color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.section_end a:hover{
+    color: white;
+    background-color: lime;
+    text-decoration: none;
+}
+
+/*SCROLLTOP*/
+.scroll-top-wrapper {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+}
+.scroll-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(3 24 213 / 75%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.scroll-top:hover {
+    background-color: rgb(3 24 213 / 100%);
+}
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media (max-width: 1200px){
+    .section_cars .card .card_details th:nth-child(1){
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    .section_cars .card .card_details th:nth-child(2){
+        text-align: right;
+        font-size: 1.2rem;
+        
+    }
+    .section_cars td{
+        padding: 0;
+        font-size: 0.8rem;
+        
+    }
+    .section_cars .card img{
+        width: 100%;
+        height: auto;
+    }
+
+    /*SECTION STEPS*/
+    .section_steps .text{
+        margin: 30px 100px;
+        padding: 50px;
+        border-radius: 100px 0 100px 0;
+    }
+    .section_steps .text a{
+        font-size: 1rem;
+    }
+    .section_steps h1{
+        font-size: 3rem;
+        padding-bottom: 40px;
+    }
+    .section_steps h2{
+        font-size: 1.8rem;
+    }
+    .section_steps li{
+        margin-left: 40px;
+        font-size: 1rem;
+    }
+
+    /*SECTION END*/
+    .section_end .text{      
+        width: 100%;
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .section_end h1{     
+        font-size: 3rem;
+
+    }
+    .section_end h2{     
+        padding-bottom: 40px;
+        font-size: 1.3rem;
+    }
+    .section_end a{
+        font-size: 1.1rem;
+        
+    }
+}
+@media (max-width: 992px){
+   
+    /*HEADER*/
+    .section_header img:nth-child(1){
+        width: 100%;
+        height: 45vh;
+        display: none;            
+    }
+    .section_header img:nth-child(3){
+        display: block;
+        width: 100%;
+        
+    }  
+
+    /*CARS*/
+    .section_cars .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section_cars .card .card_details th:nth-child(1){
+        text-align: center;
+        font-size: 1.3rem;
+        
+    }
+    .section_cars .card .card_details td[rowspan="2"]{
+        text-align: right;
+        font-size: 1.3rem;
+    }
+    .section_cars td{
+        padding: 0;
+        font-size: 0.6rem;
+        
+    }
+    .section_cars .card img{
+        width: 100%;
+        height: auto;
+    }
+
+    /*SECTION STEPS*/
+    .section_steps .text{
+        margin: 30px 40px;
+        padding: 50px;
+        border-radius: 50px 0 50px 0;
+    }
+    .section_steps h1{
+        font-size: 3rem;
+        padding-bottom: 40px;
+    }
+    .section_steps h2{
+        font-size: 1.8rem;
+    }
+    .section_steps li{
+        margin-left: 40px;
+        font-size: 1rem;
+    }
+
+    /*SECTION END*/
+    .section_end .text{      
+        width: 100%;
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .section_end h1{     
+        font-size: 2rem;
+
+    }
+    .section_end h2{     
+        padding-bottom: 40px;
+        font-size: 1rem;
+    }
+    .section_end a{
+        font-size: 1.1rem;
+        
+    }
+
+}
+@media (max-width: 576px){
+    
+
+    /*CARS*/
+    
+
+    .section_cars .cards {
+        grid-template-columns: 1fr;
+    }
+
+    
+    .section_cars .card .card_details{
+        
+        bottom: 0;
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.7); 
+        color: #f1f1f1;
+        width: 100%;
+        
+        display: grid;
+    }
+    .section_cars .card img{
+        width: 100%;
+        height: auto;
+    }
+    .section_cars .card .card_details{
+        
+        bottom: 0;
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.7); 
+        color: #f1f1f1;
+        width: 100%;
+        padding: 5px 10px 5px 10px;
+        display: grid;
+    }
+    .section_cars .card .card_details tbody{
+        text-align: center;
+    }
+    .section_cars .card .card_details th:nth-child(1){
+        text-align: center;
+        font-size: 1.4rem;
+        padding-bottom: 10px;
+    }
+    .section_cars .card .card_details td[rowspan="2"]{
+        text-align: right;
+        font-size: 1.1rem;
+        
+    }
+    
+
+    /*SECTION STEPS*/
+    .section_steps .text{  
+        padding: 30px;
+        border-radius: 50px 0 50px 0;
+        margin: 30px 20px;
+    }
+    .section_steps h1{
+        font-size: 1.5rem;
+        padding-bottom: 40px;
+    }
+    .section_steps h2{
+        font-size: 1.2rem;
+    }
+    .section_steps li{
+        margin-left: 20px;
+        font-size: 0.7rem;
+    }
+    .section_steps .text a{
+        font-size: 0.7rem;
+    }
+
+    /*SECTION END*/
+    .section_end h1{
+        font-size: 1.4rem;
+    }
+    .section_end h2{
+        padding-bottom: 40px;
+        font-size: 0.6rem;
+    }
+    .section_end a{
+        font-size: 0.8rem;
+        
+    }
+
+
+}
