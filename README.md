@@ -2,7 +2,7 @@
     
 <h1>🚘 Car Dealership Web Application </h1>
 
-<p>This web app named 'KWheels' allows users to browse cars from a custom-built database, using various filtering and sorting options. Users have the ability to create an account, log in, and add their favorite cars to a personal garage. There is a FAQ section to help answer common questions, and if the user doesn't find what they're looking for, they can submit their own question through a contact form. There is also a loan calculator available to make it easier to estimate car financing.
+<p align="justify">This web app named 'KWheels' allows users to browse cars from a custom-built database, using various filtering and sorting options. Users have the ability to create an account, log in, and add their favorite cars to a personal garage. There is a FAQ section to help answer common questions, and if the user doesn't find what they're looking for, they can submit their own question through a contact form. There is also a loan calculator available to make it easier to estimate car financing.
 </p>
 
 <h3>Features</h3>
