@@ -9,7 +9,7 @@
 
 
 
-<h2>Features</h2><hr>
+<h2>Features</h2>
 
 <ul>
     <li>Filtering cars by various attributes (brand, year, fuel type, performance, etc.)</li>
@@ -27,7 +27,7 @@
 
 
 
-<h2>Tech Stack</h2><hr>
+<h2>Tech Stack</h2>
 
 <p>Front-End: HTML, CSS, Bootstrap, jQuery, JavaScript </p>
 
@@ -35,7 +35,7 @@
 
 <p>Database: MySQL </p>
 
-<h2>Cars displayed</h2><hr>
+<h2>Cars displayed</h2>
 <h3>Filters</h3>
 <img src="kwheels/5.JPG" alt="" srcset=""> 
 <h3>Rental Cars</h3>
@@ -46,7 +46,7 @@
 <p align="justify">This section showcases the vehicles that are available for both purchase and rental. Users can easily browse through the listings using various filter and sorting options based on specific criteria. Each car is presented with high-quality images and detailed specifications to help users make informed decisions. The entire section was built using CSS for styling, PHP for backend logic, and SQL queries to fetch data from a MySQL database. The cars are dynamically displayed, allowing for real-time updates and seamless interaction with the content.</p>
 
 
-<h2>Question Form</h2><hr>
+<h2>Question Form</h2>
 
 <img src="kwheels/2.JPG" alt="" srcset="">
 
@@ -56,7 +56,7 @@
 
 
 <h2>Loan Calculator</h2>
-<hr>
+
 
 <img src="kwheels/3.JPG" alt="" srcset="">
 
@@ -65,7 +65,7 @@
 
 
 
-<h2>Contact Page</h2><hr>
+<h2>Contact Page</h2>
 
 <img src="kwheels/7.JPG" alt="" srcset="">
 
@@ -75,7 +75,7 @@
 
 
 
-<h2>User Account & Profile</h2><hr>
+<h2>User Account & Profile</h2>
 <h3>Register / Login</h3>
 
 <img src="kwheels/8.JPG" alt="" srcset="">
@@ -95,7 +95,7 @@
 
 
 
-<h2>Responsive Design</h2><hr>
+<h2>Responsive Design</h2>
 
 <div align="center">
     <img src="kwheels/mob.png" alt="" srcset="">
