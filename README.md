@@ -72,24 +72,38 @@
 
 
 
-<h3>User Account & Prolie</h3>
+<h3>User Account & Profile</h3>
+<h4>Register / Login</h4>
 
-<img src="kwheels/login.png" alt="" srcset="">
+<img src="kwheels/8.JPG" alt="" srcset="">
+<img src="kwheels/9.JPG" alt="" srcset="">
+
+<p align="justify">Users can create an account by filling out a registration form, which includes input validation to prevent incorrect or irrelevant data from being submitted. If a username or email already exists in the system, the user receives a notification. Upon providing valid information, the user's data is stored in the database, and their password is securely encrypted. During login, the system verifies the credentials to ensure that the user exists, and if the check is successful, grants access to the platform. This functionality is implemented using PHP and JavaScript.</p>
+
+<h4>Personal Profile</h4>
+
+<img src="kwheels/11.JPG" alt="" srcset="">
+<img src="kwheels/10.JPG" alt="" srcset="">
+
+
+<p align="justify">After a successful login, users can add their favorite cars to their personal garage, which they can access later at any time. Cars in the garage can be removed individually by clicking the trash bin icons, or the entire garage can be cleared with a single button click. This functionality is powered by SQL queries and implemented using PHP.</p>
+
+
+
+
+<h3>Responsive Design</h3>
+
+<div align="center">
+    <img src="kwheels/mob.png" alt="" srcset="">
+</div>
+
+
+
+<p align="justify">The entire web application places a strong emphasis on responsive design, ensuring a user-friendly and visually appealing layout across all screen sizes—including smartphones, tablets, and both smaller and larger desktop monitors. On mobile devices and tablets, the layout is primarily vertical to suit smaller screens, while horizontal layout adjustments were made for larger screens. These responsive behaviors were achieved using CSS Flexbox for flexible and adaptive design.</p>
 
 
 <p align="justify"></p>
-
-
-
-
 <p align="justify"></p>
-
-
-
-
-
-
-
 
 
 
