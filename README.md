@@ -9,7 +9,7 @@
 
 
 
-<h3>Features</h3>
+<h3>Features</h3><hr>
 
 <ul>
     <li>Filtering cars by various attributes (brand, year, fuel type, performance, etc.)</li>
@@ -27,7 +27,7 @@
 
 
 
-<h3>Tech Stack</h3>
+<h3>Tech Stack</h3><hr>
 
 <p>Front-End: HTML, CSS, Bootstrap, jQuery, JavaScript </p>
 
@@ -35,7 +35,7 @@
 
 <p>Database: MySQL </p>
 
-<h3>Cars displayed</h3>
+<h3>Cars displayed</h3><hr>
 
 <img src="kwheels/5.JPG" alt="" srcset=""> <br><br>
 <img src="kwheels/4.JPG" alt="" srcset=""><br><br>
@@ -44,7 +44,7 @@
 <p align="justify">This section showcases the vehicles that are available for both purchase and rental. Users can easily browse through the listings using various filter and sorting options based on specific criteria. Each car is presented with high-quality images and detailed specifications to help users make informed decisions. The entire section was built using CSS for styling, PHP for backend logic, and SQL queries to fetch data from a MySQL database. The cars are dynamically displayed, allowing for real-time updates and seamless interaction with the content.</p>
 
 
-<h3>Question form</h3>
+<h3>Question form</h3><hr>
 
 <img src="kwheels/2.JPG" alt="" srcset="">
 
@@ -54,6 +54,7 @@
 
 
 <h3>Loan Calculator</h3>
+<hr>
 
 <img src="kwheels/3.JPG" alt="" srcset="">
 
@@ -62,7 +63,7 @@
 
 
 
-<h3>Contact Page</h3>
+<h3>Contact Page</h3><hr>
 
 <img src="kwheels/7.JPG" alt="" srcset="">
 
@@ -72,7 +73,7 @@
 
 
 
-<h3>User Account & Profile</h3>
+<h3>User Account & Profile</h3><hr>
 <h4>Register / Login</h4>
 
 <img src="kwheels/8.JPG" alt="" srcset="">
@@ -81,6 +82,7 @@
 <p align="justify">Users can create an account by filling out a registration form, which includes input validation to prevent incorrect or irrelevant data from being submitted. If a username or email already exists in the system, the user receives a notification. Upon providing valid information, the user's data is stored in the database, and their password is securely encrypted. During login, the system verifies the credentials to ensure that the user exists, and if the check is successful, grants access to the platform. This functionality is implemented using PHP and JavaScript.</p>
 
 <h4>Personal Profile</h4>
+
 
 <img src="kwheels/11.JPG" alt="" srcset="">
 <img src="kwheels/10.JPG" alt="" srcset="">
@@ -91,7 +93,7 @@
 
 
 
-<h3>Responsive Design</h3>
+<h3>Responsive Design</h3><hr>
 
 <div align="center">
     <img src="kwheels/mob.png" alt="" srcset="">
