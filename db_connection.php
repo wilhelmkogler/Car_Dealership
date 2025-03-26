@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "kwheels_english";
+$dbname = "kwheels";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
