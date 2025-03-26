@@ -98,7 +98,7 @@
 <h2>Responsive Design</h2>
 
 <div align="center">
-    <img src="kwheels/res.png" alt="" srcset="">
+    <img src="kwheels/ya.png" alt="" srcset="">
 </div>
 
 
