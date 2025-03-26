@@ -93,7 +93,15 @@
 <p align="justify">After a successful login, users can add their favorite cars to their personal garage, which they can access later at any time. Cars in the garage can be removed individually by clicking the trash bin icons, or the entire garage can be cleared with a single button click. This functionality is powered by SQL queries and implemented using PHP.</p>
 
 
+<h2>Pop-up Messages</h2>
 
+<div align="center">
+    <img src="kwheels/pop.png" alt="" srcset="">
+</div>
+
+<p align="justify">Instead of the usual outdated and dull pop-up windows, this application uses modern, user-friendly alerts to enhance the user experience. These notifications inform users about various actions—for example, when a car has been successfully added to their garage or when a question has been submitted via the form. They also prompt users to confirm important decisions, such as whether they really want to log out or delete their entire garage. This feature was implemented using a JavaScript library called SweetAlert, which provides customizable and visually appealing alert dialogs.
+
+</p>
 
 <h2>Responsive Design</h2>
 
@@ -101,13 +109,11 @@
     <img src="kwheels/ya.png" alt="" srcset="">
 </div>
 
-
-
 <p align="justify">The entire web application places a strong emphasis on responsive design, ensuring a user-friendly and visually appealing layout across all screen sizes—including smartphones, tablets, and both smaller and larger desktop monitors. On mobile devices and tablets, the layout is primarily vertical to suit smaller screens, while horizontal layout adjustments were made for larger screens. These responsive behaviors were achieved using CSS Flexbox for flexible and adaptive design.</p>
 
 
-<p align="justify"></p>
-<p align="justify"></p>
+
+
 
 
 
